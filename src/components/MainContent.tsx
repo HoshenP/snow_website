@@ -24,6 +24,7 @@ const teamMembers = {
     { name: 'BiffleZ', role: 'חבר טים', avatar: '/membersskins/bifflez.png' },
     { name: 'ItsPiko_', role: 'חבר טים', avatar: '/membersskins/itspiko.png' },
     { name: 'Yan1One', role: 'חבר טים', avatar: '/membersskins/yan1one.png' },
+    { name: '_Acia', role: 'חבר טים', avatar: '/membersskins/acia.png' },
     { name: 'ImEmotionless', role: 'חבר טים', avatar: '/membersskins/imemotionless.png' },
     { name: 'Big4Lord', role: 'חבר טים', avatar: '/membersskins/big4lord.png' },
     { name: 'NADAVmood_XD', role: 'חבר טים', avatar: '/membersskins/nadavmoodxd.png' },
