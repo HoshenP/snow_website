@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/assets/minecraft_font.ttf') format('truetype');
+}
+
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #030b1a;
+  color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: none; /* Hide default cursor */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #030b1a;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.cursor-blob {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 0, 255, 0.85) 0%,
+    rgba(0, 0, 255, 0.7) 15%,
+    rgba(0, 0, 255, 0.5) 25%,
+    rgba(0, 0, 255, 0.25) 40%,
+    rgba(0, 0, 255, 0.08) 60%,
+    rgba(0, 0, 0, 0) 75%
+  );
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: screen;
+  will-change: transform;
+  filter: blur(10px) brightness(2) contrast(1.5) saturate(1.5);
+  transform-origin: center center;
+}
+
+/* Remove the light/dark mode switches since we're using dark theme only */
